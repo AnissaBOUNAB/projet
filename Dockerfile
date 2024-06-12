@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx
 COPY static-html-directory /usr/share/nginx/html/index.html
 
 
